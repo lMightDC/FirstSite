@@ -1,0 +1,63 @@
+ /*css reset - to prevent user-agent's style (chrome, safari)*/
+/* use command key and slash key as short cutt to comment */
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+h1{
+  color: #fed021;
+  margin: 25px 30px 0px 30px;
+}
+h4{
+  color:#fed021;
+}
+
+/* css selctors - tag, id, class */
+
+.anotherHeading1{
+  /* color: red; /* color name */
+  /* color: #FF0000; /* hex code */
+
+  color: hsl(9, 100%, 64%);
+}
+.anotherHeading2{
+  color: rgb(255,0,0);
+}
+#introPara{
+  margin: 25px 30px;
+  line-height: 30px;
+  width: 60%;
+}
+.ingradients{
+  /* border : 2px solid blue; */
+  padding: 10px  0px;
+  background: gray;
+  width: 60%;
+  margin: 30px;
+}
+.ingradientsList{
+  padding: 10px;
+  border : 2px solid #fed021;
+  margin-left: 30px;
+  width: 60%;
+}
+
+.list{
+  list-style: none;
+  line-height: 30px;
+
+}
+.cake{
+  width: 40%;
+  height:auto;
+  margin-left: 30px;
+
+}
+
+/* special effect on elements  */
+.cake:hover{
+  border : 3px solid orange;
+  padding: 10px;
+}
